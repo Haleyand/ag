@@ -5,6 +5,7 @@
 
 body{
   padding-top: 40px;
+  font-family:"Alegreya Sans", sans-serif;
 }
 
 ul{ 
@@ -22,7 +23,7 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
+  font-size: 34px;
   color:#2E93BE;
   text-align:left;
   line-height: 40px;
@@ -32,19 +33,16 @@ h1{
 h2{
   font-size: 18px;
   color:#fff;
-}
-
-h3{
-  font-size: 22px;
-  color:#333;
-  text-align:left;
-  line-height: 32px;
+  text-align: left;
+  line-height: 25px;
+  font-weight: 200;
 }
 
 h4{
   font-size: 25px;
   text-align:center;
   color:#333;
+  letter-spacing: 1px;
 }
 
 h5{
@@ -53,17 +51,26 @@ h5{
   color: #2D92BE ;
 }
 
-p {
+.product p {
   font-size: 15px;
   text-align:left;
-  font-family:"Alegreya Sans", sans-serif;
   line-height: 22px;
   letter-spacing: 1px;
 }
 
+.mission.box p {
+  padding: 0px;
+  font-size: 22px;
+  color:#333;
+  text-align:left;
+  line-height: 32px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+}
 
 a {
   font-family:"Alegreya Sans", sans-serif;
+  font-size: 17px;
 }
 
 blockquote {
@@ -83,7 +90,8 @@ blockquote {
   float: left;
   max-height: 100px;
   max-width: 350px;
-  padding-right: 100px;
+  padding-right: 60px;
+  margin-bottom: 25px;
 }
 
 /*Menu*/
@@ -108,28 +116,52 @@ blockquote {
 }
 
 .box p{
-  padding: 10px;
+  padding: 20px;
 }
-
 
 .box.mission{
   border: none;
-  padding: 0px;
-  padding-right: 20px;
 }
 
 .box.mission h1{
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 .borderbox{
-  border: 1px solid #222;
+  border: 1px solid #666;
+}
+
+nav.menu{
+  padding: 0px;
+}
+
+.nav{
+  padding-top: 50px;
+}
+
+.nav.nav-pills li{
+  border-bottom: 1px solid #666; 
+  margin-left: 30px;
+}
+
+.nav-pills li a{
+  padding: 0px;
+  line-height: 32px;
+  color: #666;
+  text-align: left;
+  width: 120px;
+}
+
+.nav-pills li a:hover{
+  color:#2E93BE;
+  background-color: #fff;
 }
 
 /*Footer*/
 
 footer {
   padding-top: 10px;
-  background-color: #666;
+  background-color: #424242;
 }
 
